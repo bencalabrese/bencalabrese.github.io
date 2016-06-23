@@ -15,12 +15,6 @@
   position: relative;
 }
 
-@media screen and (max-width: 736px) {
-
-  .skills {
-    display: none;
-  }
-}
 
 .project {
   display: block;
@@ -43,6 +37,12 @@
   color: rgb(54, 54, 54);
 }
 
+.project img {
+  height: 10em;
+  object-fit: scale-down;
+  padding-bottom: 1em;
+}
+
 .project h5 {
   font-size: 0.9em;
   font-weight: 300;
@@ -56,4 +56,15 @@
 
 .project li {
   font-size: 0.75em;
+}
+
+@media screen and (max-width: 736px) {
+
+  .skills {
+    display: none;
+  }
+
+  .project img {
+    min-height: none;
+  }
 }
