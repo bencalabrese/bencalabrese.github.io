@@ -1,8 +1,11 @@
 .skills {
   height: 80px;
-  width: 500px;
+  width: 100%;
   overflow: hidden;
   white-space: nowrap;
+  position: absolute;
+  bottom: 1em;
+  left: -2.5em;
 }
 
 .skills img {
@@ -10,7 +13,13 @@
   height: 80px;
   display: inline-block;
   position: relative;
-  box-sizing: border-box;
+}
+
+@media screen and (max-width: 736px) {
+
+  .skills {
+    display: none;
+  }
 }
 
 .project {
