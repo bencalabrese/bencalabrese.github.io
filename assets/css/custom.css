@@ -1,4 +1,41 @@
-.skills img {
-  width: 80px;
+.skills {
   height: 80px;
+  width: 500px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.skills img {
+  height: 80px;
+  position: relative;
+  display: inline-block;
+}
+
+.tail {
+  height: 80px;
+  display: inline-block;
+  position: relative;
+}
+
+.double {
+  position: absolute;
+  left: 80px;
+  display: inline-block;
+}
+
+.project {
+  text-decoration: none;
+}
+
+.project h5 {
+  font-size: 0.9em;
+  font-weight: 300;
+}
+
+.project ul {
+  list-style: disc;
+}
+
+.project li {
+  font-size: 0.75em;
 }
