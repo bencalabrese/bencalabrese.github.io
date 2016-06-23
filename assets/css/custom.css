@@ -7,8 +7,10 @@
 
 .skills img {
   width: 80px;
+  height: 80px;
   display: inline-block;
   position: relative;
+  box-sizing: border-box;
 }
 
 .project {
