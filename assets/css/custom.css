@@ -6,21 +6,9 @@
 }
 
 .skills img {
-  height: 80px;
-  position: relative;
-  display: inline-block;
-}
-
-.tail {
-  height: 80px;
+  width: 80px;
   display: inline-block;
   position: relative;
-}
-
-.double {
-  position: absolute;
-  left: 80px;
-  display: inline-block;
 }
 
 .project {
